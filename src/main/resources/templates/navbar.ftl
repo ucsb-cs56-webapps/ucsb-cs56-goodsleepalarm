@@ -5,10 +5,13 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/page1">Page 1</a>
+      <a class="nav-link" href="/InputSchedule">Input Schedule</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/page2">Page 2</a>
+      <a class="nav-link" href="/ViewSchedule">View Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/AlarmForOneDay">Alarm For One Day</a>
     </li>
 
     <!-- Dropdown -->
@@ -17,9 +20,9 @@
         Dropdown link
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="/page1">Page 1</a>
-        <a class="dropdown-item" href="/page2">Page 2</a>
-        <a class="dropdown-item" href="/page3">Page 3</a>
+        <a class="dropdown-item" href="/InputSchedule">Input Schedule</a>
+        <a class="dropdown-item" href="/ViewSchedule">View Schedule</a>
+        <a class="dropdown-item" href="/AlarmForOneDay">Alarm For One Day</a>
       </div>
     </li>
   </ul>

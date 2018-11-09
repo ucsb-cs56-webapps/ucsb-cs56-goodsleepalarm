@@ -11,20 +11,20 @@ public class HelloController {
         return "index";
     }
 
-	@RequestMapping("/page1")
+	@RequestMapping("/InputSchedule")
     public String page1() {
-        return "page1";
+        return "InputSchedule";
     }
 
-	@RequestMapping("/page2")
+	@RequestMapping("/ViewSchedule")
 	public String page2() {
-        return "page2";
+        return "ViewSchedule";
     }
 
-	@RequestMapping("/page3")
+	@RequestMapping("/AlarmForOneDay")
 	public String page3() {
-        return "page3";
+        return "AlarmForOneDay";
     }
 
-	
+
 }

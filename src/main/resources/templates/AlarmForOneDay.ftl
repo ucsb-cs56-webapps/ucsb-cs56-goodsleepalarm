@@ -6,7 +6,7 @@
  </head>
  <body>
    <#include "navbar.ftl" />
-   <h1>This is Page 3</h1>
-  <p>Same stuff, different page</p>
+   <h1>Set Alarm For One Day</h1>
+  <p>On this page the user will be able to set an alarm for one day.</p>
  </body>
 </html>

@@ -1,7 +1,7 @@
-# STARTER_lab06
+# lab06
 
-Starter code for [lab06](https://ucsb-cs56-f18.github.io/lab/lab06/)
+Good Sleep Alarm App
+Arjun Umashankkar
+Junayed Naushad
 
-EDIT THIS README.md file and replace everything in it with your own
-description of the webapp for which you are building a prototype.
-
+This app allows users to input their schedule and based on their schedule it will design an appropriate alarm schedule.
