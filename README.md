@@ -1,2 +1,2 @@
 # ucsb-cs56-goodsleepalarm
-gives users sleep suggestions based on schedule..
+gives users sleep suggestions based on schedule...
