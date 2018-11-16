@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.pconrad.springboot.hello;
+package edu.ucsb.cs56.goodsleepalarm;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,26 +11,19 @@ public class HelloController {
 		return "index";
 	}
 
-	@RequestMapping("/calendar")
+	@RequestMapping("/inputschedule")
 	public String calendar() {
-		return "calendar";
+		return "inputschedule";
 	}
 
-	@RequestMapping("/upcoming")
-	public String upcoming() {
-		return "upcoming";
+	@RequestMapping("/viewschedule")
+	public String viewschedule() {
+		return "viewschedule";
 	}
 
-	@RequestMapping("/about")
-	public String about() {
-		return "about";
-	}
-
-	@RequestMapping("/contact")
-	public String contact() {
-		return "contact";
-	}
-
-							
+	@RequestMapping("/settings")
+	public String settings() {
+		return "settings";
+	}						
 }
 
