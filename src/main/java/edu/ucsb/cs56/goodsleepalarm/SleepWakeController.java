@@ -6,30 +6,30 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-	    @RequestMapping("/")
-		    public String index() {
-				        return "index";
-						    }
+	@RequestMapping("/")
+	public String index() {
+		return "index";
+	}
 
-			@RequestMapping("/calendar")
-			    public String calendar() {
-					        return "calendar";
-							    }
+	@RequestMapping("/calendar")
+	public String calendar() {
+		return "calendar";
+	}
 
-				@RequestMapping("/upcoming")
-					public String upcoming() {
-						        return "upcoming";
-								    }
+	@RequestMapping("/upcoming")
+	public String upcoming() {
+		return "upcoming";
+	}
 
-					@RequestMapping("/about")
-						public String about() {
-							        return "about";
-									    }
+	@RequestMapping("/about")
+	public String about() {
+		return "about";
+	}
 
-					    @RequestMapping("/contact")
-						    public String contact() {
-								        return "contact";
-										    }
+	@RequestMapping("/contact")
+	public String contact() {
+		return "contact";
+	}
 
 							
 }
