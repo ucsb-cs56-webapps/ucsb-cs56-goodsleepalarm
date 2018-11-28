@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.pconrad.springboot.hello;
+package edu.ucsb.cs56.goodsleepalarm;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,24 +11,24 @@ public class SleepWakeController {
 		return "index";
 	}
 
-	@RequestMapping("/calendar")
+	@RequestMapping("/Input Schedule")
 	public String calendar() {
-		return "calendar";
+		return "Input Schedule";
 	}
 
-	@RequestMapping("/upcoming")
+	@RequestMapping("/View Schedule")
 	public String upcoming() {
-		return "upcoming";
+		return "View Schedule";
 	}
 
-	@RequestMapping("/about")
+	@RequestMapping("/Alarm For One Day")
 	public String about() {
-		return "about";
+		return "Alarm For One Day";
 	}
 
-	@RequestMapping("/contact")
+	@RequestMapping("/User Settings")
 	public String contact() {
-		return "contact";
+		return "User Settings";
 	}
 
 							
