@@ -5,16 +5,16 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/Input Schedule">Input Schedule</a>
+      <a class="nav-link" href="/InputSchedule">Input Schedule</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/View Schedule">View Schedule</a>
+      <a class="nav-link" href="/ViewSchedule">View Schedule</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/Alarm For One Day">Alarm For One Day</a>
+      <a class="nav-link" href="/AlarmForOneDay">Alarm For One Day</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/User Settings">Alarm For One Day</a>
+      <a class="nav-link" href="/UserSettings">User Settings</a>
     </li>
   </ul>
 </nav>
