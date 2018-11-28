@@ -12,22 +12,22 @@ public class SleepWakeController {
 	}
 
 	@RequestMapping("/Input Schedule")
-	public String calendar() {
+	public String page1() {
 		return "Input Schedule";
 	}
 
 	@RequestMapping("/View Schedule")
-	public String upcoming() {
+	public String page2() {
 		return "View Schedule";
 	}
 
 	@RequestMapping("/Alarm For One Day")
-	public String about() {
+	public String page3() {
 		return "Alarm For One Day";
 	}
 
 	@RequestMapping("/User Settings")
-	public String contact() {
+	public String page4() {
 		return "User Settings";
 	}
 
