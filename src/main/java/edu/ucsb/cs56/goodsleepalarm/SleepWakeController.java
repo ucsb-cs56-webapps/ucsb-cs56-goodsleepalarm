@@ -11,24 +11,24 @@ public class SleepWakeController {
 		return "index";
 	}
 
-	@RequestMapping("/Input Schedule")
+	@RequestMapping("/InputSchedule")
 	public String page1() {
-		return "Input Schedule";
+		return "InputSchedule";
 	}
 
-	@RequestMapping("/View Schedule")
+	@RequestMapping("/ViewSchedule")
 	public String page2() {
-		return "View Schedule";
+		return "ViewSchedule";
 	}
 
-	@RequestMapping("/Alarm For One Day")
+	@RequestMapping("/AlarmForOneDay")
 	public String page3() {
-		return "Alarm For One Day";
+		return "AlarmForOneDay";
 	}
 
-	@RequestMapping("/User Settings")
+	@RequestMapping("/UserSettings")
 	public String page4() {
-		return "User Settings";
+		return "UserSettings";
 	}
 
 							
