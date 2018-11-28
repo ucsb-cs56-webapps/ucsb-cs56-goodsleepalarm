@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.goodsleepalarm.hello;
+package edu.ucsb.cs56.goodsleepalarm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
