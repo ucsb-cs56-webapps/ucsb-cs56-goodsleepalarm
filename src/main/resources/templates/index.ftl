@@ -6,7 +6,7 @@
  </head>
  <body>
    <#include "navbar.ftl" />
-   <h1>Spring Boot with Freemarker</h1>
-  <p>Hello, World!</p>
+   <h1>Good Sleep Alarm</h1>
+  <p>This will be user login</p>
  </body>
 </html>
