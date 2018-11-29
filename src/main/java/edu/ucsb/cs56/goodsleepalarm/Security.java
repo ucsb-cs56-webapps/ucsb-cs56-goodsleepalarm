@@ -1,3 +1,5 @@
+package ucsb.cs56.goodsleepalarm
+
 @EnableOAuth2Sso
 @Configuration
 public class Security extends WebSecurityConfigurerAdapter {
