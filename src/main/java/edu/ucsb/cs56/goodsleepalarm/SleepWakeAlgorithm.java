@@ -32,12 +32,8 @@ public class SleepWakeAlgorithm {
 
         if (wmin > imin) 
             setTime(wakeTime, idealWakeTime) ;
-            // if (fhour >= wakeBefore)
-            //     wakeTime.set(Calendar.HOUR_OF_DAY, fhour - wakeBefore) ;
         
         long minOfSleep = wmin - smin ;
-        // int minOfSleep = 24 - (lhour + sleepAfter) + fhour ;
-        
         // if there's sleep deficit, increase sleep until sleepAfter is 60 min
         // then decrease wakeBefore until 60 min if there is still deficit
         if (minOfSleep < sleepLen) {
@@ -57,25 +53,25 @@ public class SleepWakeAlgorithm {
         }
     }
 
-    public static void main(String [] args) {
-        Calendar temp1 = Calendar.getInstance() ;
-        Calendar temp2 = Calendar.getInstance() ;
-        Calendar temp3 = Calendar.getInstance() ;
-        temp1.set(Calendar.HOUR_OF_DAY, 10) ;
-        temp1.set(Calendar.DAY_OF_MONTH, 29) ;
-        temp1.add(Calendar.MINUTE, 50) ;
-        temp2.set(Calendar.HOUR_OF_DAY, 22) ;
-        temp2.add(Calendar.MINUTE, 23) ;
-        temp3.set(Calendar.DAY_OF_MONTH, 29) ;
-        temp3.set(Calendar.HOUR_OF_DAY, 8) ;
-        temp3.add(Calendar.MINUTE, -54) ;
-        System.out.println(temp1.getTime()) ;
-        System.out.println(temp2.getTime()) ;
-        System.out.println(temp3.getTime() + "\n") ;
-        calcTime(temp1, temp2, temp3) ;
-        System.out.println(wakeTime.getTime()) ;
-        System.out.println(sleepTime.getTime()) ;
+    // public static void main(String [] args) {
+    //     Calendar temp1 = Calendar.getInstance() ;
+    //     Calendar temp2 = Calendar.getInstance() ;
+    //     Calendar temp3 = Calendar.getInstance() ;
+    //     temp1.set(Calendar.HOUR_OF_DAY, 10) ;
+    //     temp1.set(Calendar.DAY_OF_MONTH, 29) ;
+    //     temp1.add(Calendar.MINUTE, 50) ;
+    //     temp2.set(Calendar.HOUR_OF_DAY, 22) ;
+    //     temp2.add(Calendar.MINUTE, 23) ;
+    //     temp3.set(Calendar.DAY_OF_MONTH, 29) ;
+    //     temp3.set(Calendar.HOUR_OF_DAY, 8) ;
+    //     temp3.add(Calendar.MINUTE, -54) ;
+    //     System.out.println(temp1.getTime()) ;
+    //     System.out.println(temp2.getTime()) ;
+    //     System.out.println(temp3.getTime() + "\n") ;
+    //     calcTime(temp1, temp2, temp3) ;
+    //     System.out.println(wakeTime.getTime()) ;
+    //     System.out.println(sleepTime.getTime()) ;
         // System.out.println("" + SleepWakeAlgorithm.wakeTime.get(Calendar.DAY_OF_MONTH)) ;
         // System.out.println("" + SleepWakeAlgorithm.sleepTime.get(Calendar.DAY_OF_MONTH)) ;
-    }
+    // }
 }
