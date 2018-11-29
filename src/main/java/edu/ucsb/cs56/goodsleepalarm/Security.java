@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.goodsleepalarm;
+/*package edu.ucsb.cs56.goodsleepalarm;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
@@ -32,4 +32,4 @@ public class Security extends WebSecurityConfigurerAdapter {
                 .anyRequest()
                     .authenticated();
     }
-}
+}*/
