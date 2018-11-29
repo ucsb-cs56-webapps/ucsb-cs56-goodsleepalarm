@@ -1,4 +1,5 @@
 package edu.ucsb.cs56.goodsleepalarm;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 //import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
@@ -17,7 +18,7 @@ import org.springframework.security.web.authentication.www.BasicAuthenticationFi
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 @EnableOAuth2Sso
-@Configurable
+@Configuration
 public class Security extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
