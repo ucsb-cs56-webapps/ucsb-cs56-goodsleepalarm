@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.goodsleepalarm
+package edu.ucsb.cs56.goodsleepalarm;
 
 @EnableOAuth2Sso
 @Configuration
