@@ -31,6 +31,5 @@ public class SleepWakeController {
 		return "UserSettings";
 	}
 
-							
 }
 
