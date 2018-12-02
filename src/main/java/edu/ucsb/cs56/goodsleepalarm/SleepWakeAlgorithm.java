@@ -25,7 +25,7 @@ public class SleepWakeAlgorithm {
      * @param levent Calendar object for last event of today
      * @param idealWakeTime Calendar object for ideal time to wake
      */
-    public static void calcTime(Calendar fevent, Calendar levent, Calendar idealWakeTime) {
+    public static void calcTime(Calendar fevent, Calendar levent, Calendar idealWakeTime, Calendar sleepTimeReturn, Calendar wakeTimeReturn) {
         setTime(wakeTime, fevent) ;
         setTime(sleepTime, levent) ;
 
@@ -86,6 +86,8 @@ public class SleepWakeAlgorithm {
                 }
             }
         }
+        setTime(sleepTimeReturn, sleepTime);
+        setTime(wakeTimeReturn, wakeTime);
     }
 
     // public static void main(String [] args) {

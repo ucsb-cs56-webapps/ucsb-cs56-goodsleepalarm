@@ -31,8 +31,9 @@ public class SleepWakeController {
     // }
 	@RequestMapping("/ViewSchedule")
 	public @ResponseBody ModelAndView page2(@ModelAttribute("sm") SleepModel sm) {
+        sm.runSleepWakeAlgorithm();
         Map<String, Object> params = new HashMap<>();
-        params.put("sm", sm);
+		params.put("sm", sm);
 		return new ModelAndView("ViewSchedule", params) ;
 	}
 
