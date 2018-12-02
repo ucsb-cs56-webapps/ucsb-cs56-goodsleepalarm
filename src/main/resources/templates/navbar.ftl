@@ -8,9 +8,6 @@
       <a class="nav-link" href="/InputSchedule">Input Schedule</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/ViewSchedule">View Schedule</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" href="/AlarmForOneDay">Alarm For One Day</a>
     </li>
     <li class="nav-item">
