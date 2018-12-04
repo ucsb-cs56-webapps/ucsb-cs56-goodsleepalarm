@@ -37,14 +37,10 @@ public class SleepWakeController {
 		return new ModelAndView("ViewSchedule", params) ;
 	}
 
-	@RequestMapping("/AlarmForOneDay")
-	public String page3() {
-		return "AlarmForOneDay";
-	}
 
-	@RequestMapping("/UserSettings")
+	@RequestMapping("/Information")
 	public String page4() {
-		return "UserSettings";
+		return "Information";
 	}
 
 }
