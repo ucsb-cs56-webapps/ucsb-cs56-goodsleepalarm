@@ -22,26 +22,23 @@ public class SleepModel {
     	wakeTimeCal.set(Calendar.MINUTE, Integer.parseInt(wakeup.substring(3)));
     	wakeTimeCal.add(Calendar.HOUR_OF_DAY, 24);
 
-
-    	//sleepTimeCal.set(1, 1, 1, Integer.parseInt(sleep.substring(0, 2)), Integer.parseInt(sleep.substring(3), 0));
-    	//wakeTimeCal.set(1, 1, 2, Integer.parseInt(wakeup.substring(0, 2)), Integer.parseInt(wakeup.substring(3), 0));
-    	
     	SleepWakeAlgorithm.setTime(idealWakeTime, wakeTimeCal);
     	idealWakeTime.set(Calendar.HOUR_OF_DAY, 8);
+    	idealWakeTime.set(Calendar.MINUTE, 0);
 		
-    	SleepWakeAlgorithm.calcTime(wakeTimeCal, sleepTimeCal, idealWakeTime, sleepTime, wakeTime);
+    	SleepWakeAlgorithm.calcTime(sleepTimeCal, wakeTimeCal, idealWakeTime, sleepTime, wakeTime);
     }
 
     @Override
     public String toString() {
     	if (wakeTime.getTimeInMillis() < sleepTime.getTimeInMillis()) {
     		String output = "Error: wake up time is before sleep time\n";
-    		output += "Sleep time: " + sleepTime.toString() + "\n";
-    		output += "Wake time: " + wakeTime.toString();
+    		// output += "Sleep time: " + sleepTime.toString() + "\n";
+    		// output += "Wake time: " + wakeTime.toString();
     		return output;
     	} else {
-    		String output = "Sleep: " + sleepTime.get(Calendar.HOUR_OF_DAY) + ":" + sleepTime.get(Calendar.MINUTE) + "\n";
-    		output += "Wake: " + wakeTime.get(Calendar.HOUR_OF_DAY) + ":" + wakeTime.get(Calendar.MINUTE);
+            String output = String.format("Sleep: %1$tI:%1$tM %1$Tp\n", sleepTime) ;
+            output += String.format("Wake: %1$tI:%1$tM %1$Tp\n", wakeTime) ;
     		return output;
     	}
     }
