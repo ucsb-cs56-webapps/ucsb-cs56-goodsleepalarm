@@ -26,7 +26,7 @@ Setting up Google Credentials
 6) On the page that appears, click on your project, then copy the client ID and client secret to your clipboard, as you will need them when you configure your client library.
 
 Using Google Credentials
-1. To use your Google credentials for localhost / heroku, copy localhost / heroku.json.SAMPLE to localhost / heroku.json at the project root
+1. To use your Google credentials for localhost / heroku, copy localhost / heroku.json.SAMPLE to localhost / heroku.json at the project root using the commands: `cp localhost.json.SAMPLE localhost.json` and `cp heroku.json.SAMPLE heroku.json`
 2. Modify localhost / heroku.json by putting in your client id and client secret where indicated
 3. For heroku, run `./setHerokuEnv.py --app cs56-goodsleepalarm` ; For localhost run . env.sh from the root
 4. Finally deploy / run the webapp with `mvn spring-boot:run` or `mvn package heroku:deploy`
