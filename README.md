@@ -7,6 +7,8 @@ gives users sleep suggestions based on schedule...
 https://cs56-goodsleepalarm.herokuapp.com/
 
 
+Before YOU START - GIT CLONE THIS REPO!!!!
+
 Step1 : Create a Heroku Account
 If you do not already have a Heroku account, navigate to https://www.heroku.com/ and click the “Sign up for Free” link.
 
