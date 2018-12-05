@@ -23,7 +23,7 @@ Setting up Google Credentials
   http://cs56-goodsleepalarm.herokuapp.com.
  Then click create.
 
-6) On the page that appears, copy the client ID and client secret to your clipboard, as you will need them when you configure your client library.
+6) On the page that appears, click on your project, then copy the client ID and client secret to your clipboard, as you will need them when you configure your client library.
 
 Using Google Credentials
 1. To use your Google credentials for localhost / heroku, copy localhost / heroku.json.SAMPLE to localhost / heroku.json at the project root
