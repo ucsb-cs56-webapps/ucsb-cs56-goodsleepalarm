@@ -14,7 +14,7 @@ Setting up Google Credentials
 
 3) On the Credentials page, select Create credentials, then select OAuth client ID.
 
-4) You may be prompted to set a product name on the Consent screen; if so, click Configure consent screen, supply the requested information, and click Save to return to the Credentials screen.
+4) You may be prompted to set a product name on the Consent screen; if so, click Configure consent screen, supply the requested information including adding cs56-goodsleepalarm.herokuapp.com to the authorized domains, and click Save to return to the Credentials screen.
 
 5) Select Web application for the Application type, enter the application name. Then in the redirect urls, add all of the following: http://localhost:8080/login	
   https://cs56-goodsleepalarm.herokuapp.com	
