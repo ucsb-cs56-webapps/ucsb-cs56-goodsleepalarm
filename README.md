@@ -28,6 +28,7 @@ Then, use this command to create a new web app running on heroku. Substitute you
 
 Then, Modify the pom.xml file to refer to your heroku app
 In the pom.xml file, locate this section. It is a plugin element, and should be located inside the plugins element.
+Edit this line with your app name instead of this one:  `<appName>cs56-goodsleepalarm</appName>`
 
 
 
