@@ -6,6 +6,20 @@ gives users sleep suggestions based on schedule...
 
 https://cs56-goodsleepalarm.herokuapp.com/
 
+
+Step 2: Create a Heroku Account
+If you do not already have a Heroku account, navigate to https://www.heroku.com/ and click the “Sign up for Free” link.
+
+Heroku Signup
+
+You’ll be asked for:
+
+First Name
+Last Name
+Email (you may use any email address you like)
+Company (you may leave this blank).
+
+
 Setting up Google Credentials
 
 1) Open the Google API Console Credentials page : https://console.developers.google.com/apis/dashboard
