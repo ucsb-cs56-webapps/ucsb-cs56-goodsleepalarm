@@ -30,7 +30,7 @@ Then, use this command to create a new web app running on heroku. Substitute you
 
 Then, Modify the pom.xml file to refer to your heroku app
 In the pom.xml file, locate this section. It is a plugin element, and should be located inside the plugins element.
-Edit this line with your app name instead of this one:  `<appName>cs56-goodsleepalarm</appName>`
+Edit this line with your app name instead of this one:  `<appName>webapp-name-here</appName>`
 
 
 
@@ -42,13 +42,13 @@ Step 2) Setting up Google Credentials
 
 3) On the Credentials page, select Create credentials, then select OAuth client ID.
 
-4) You may be prompted to set a product name on the Consent screen; if so, click Configure consent screen, supply the requested information including adding cs56-goodsleepalarm.herokuapp.com to the authorized domains, and click Save to return to the Credentials screen.
+4) You may be prompted to set a product name on the Consent screen; if so, click Configure consent screen, supply the requested information including adding webapp-name-here.herokuapp.com to the authorized domains, and click Save to return to the Credentials screen.
 
 5) Select Web application for the Application type, enter the application name. Then in the redirect urls, add all of the following: http://localhost:8080/login	
-  https://cs56-goodsleepalarm.herokuapp.com	
-  https://cs56-goodsleepalarm.herokuapp.com/login	
-  http://cs56-goodsleepalarm.herokuapp.com/login	
-  http://cs56-goodsleepalarm.herokuapp.com.
+  https://webapp-name-here.herokuapp.com	
+  https://webapp-name-here.herokuapp.com/login	
+  http://webapp-name-here.herokuapp.com/login	
+  http://webapp-name-here.herokuapp.com.
  Then click create.
 
 6) On the page that appears, click on your project, then copy the client ID and client secret to your clipboard, as you will need them when you configure your client library.
@@ -56,5 +56,5 @@ Step 2) Setting up Google Credentials
 Step 3) Using Google Credentials
 1. To use your Google credentials for localhost / heroku, copy localhost / heroku.json.SAMPLE to localhost / heroku.json at the project root using the commands: `cp localhost.json.SAMPLE localhost.json` and `cp heroku.json.SAMPLE heroku.json`
 2. Modify localhost / heroku.json by putting in your client id and client secret where indicated
-3. For heroku, run `./setHerokuEnv.py --app cs56-goodsleepalarm` ; For localhost run . env.sh from the root
+3. For heroku, run `./setHerokuEnv.py --app webapp-name-here` ; For localhost run . env.sh from the root
 4. Finally deploy / run the webapp with `mvn spring-boot:run` or `mvn package heroku:deploy`
